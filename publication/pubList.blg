@@ -1,0 +1,78 @@
+This is BibTeX, Version 0.99d (TeX Live 2014)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: pubList.aux
+The style file: unsrt.bst
+Database file #1: pub.bib.bib
+Warning--empty journal in Chen:2013epa
+Warning--empty journal in ATLAS:2016lsr
+Warning--empty journal in ATLAS:2016uwq
+Warning--empty journal in Aaboud:2016ffv
+Warning--empty journal in Aaboud:2016xii
+Warning--empty journal in Aaboud:2016vzw
+Warning--empty journal in Aaboud:2016bmk
+Warning--empty journal in Aaboud:2016urj
+Warning--empty journal in Aaboud:2016ftt
+Warning--empty journal in Aad:2016nrq
+Warning--empty journal in Aaboud:2016ylh
+Warning--empty journal in Aaboud:2016yar
+Warning--empty journal in Aaboud:2016uuk
+Warning--empty journal in Aaboud:2016obm
+Warning--empty journal in Aaboud:2016poq
+Warning--empty journal in Aaboud:2016ymp
+Warning--empty journal in Aaboud:2016xve
+Warning--empty journal in Aaboud:2016hhf
+Warning--empty journal in Aaboud:2016dea
+Warning--empty journal in Aaboud:2016hwh
+Warning--empty journal in Aaboud:2016jed
+Warning--empty journal in Aaboud:2016iot
+Warning--empty journal in Aaboud:2016trl
+Warning--empty journal in Aaboud:2016zpr
+Warning--empty journal in Aaboud:2016lwx
+Warning--empty journal in Aaboud:2016jnr
+Warning--empty journal in Aaboud:2016cns
+Warning--empty journal in Aaboud:2016yuq
+Warning--empty journal in Aad:2016blu
+Warning--empty journal in Aad:2016upy
+Warning--empty journal in Aad:2016nal
+You've used 145 entries,
+            1791 wiz_defined-function locations,
+            1049 strings with 28470 characters,
+and the built_in function-call counts, 27266 in all, are:
+= -- 2314
+> -- 1148
+< -- 0
++ -- 433
+- -- 288
+* -- 1540
+:= -- 4582
+add.period$ -- 435
+call.type$ -- 145
+change.case$ -- 145
+chr.to.int$ -- 0
+cite$ -- 176
+duplicate$ -- 1295
+empty$ -- 2856
+format.name$ -- 288
+if$ -- 6054
+int.to.chr$ -- 0
+int.to.str$ -- 145
+missing$ -- 144
+newline$ -- 728
+num.names$ -- 145
+pop$ -- 318
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 569
+stack$ -- 0
+substring$ -- 1440
+swap$ -- 121
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 31
+while$ -- 250
+width$ -- 148
+write$ -- 1527
+(There were 31 warnings)
