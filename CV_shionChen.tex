@@ -65,13 +65,6 @@
   {\thesection}{1em}{}
 
 %%%% Alias %%%%%
-\newcommand{\beq}{\begin{equation}}
-\newcommand{\eeq}{\end{equation}}
-\newcommand{\colv}[1]{\left( \begin{array}{c} #1 \end{array} \right)}
-\newcommand{\colvf}[1]{\left( \begin{array}{cccc } #1 \end{array} \right)}
-\newcommand{\tab}[4]{\begin{table}[h] \begin{center} \caption{#3} \begin{tabular}{#1} #2 \end{tabular}  \label{#4} \end{center}   \end{table}}
-\newcommand{\tabnocap}[3]{\begin{table}[h] \begin{center} \caption*{} \begin{tabular}{#1} #2 \end{tabular}  \label{#3} \end{center}   \end{table}}
-%
 \def \mm#1{\mathrm{#1}}
 % fig 
 \newcommand{\fig}[4][width=15cm]{
@@ -93,7 +86,6 @@
 \newcommand{\GeV}{\text{GeV}\xspace}
 \newcommand{\TeV}{\text{TeV}\xspace}
 
-
 %
 %%%%%%%%%%%%
 \begin{document}
@@ -103,14 +95,31 @@
   \large{\textbf{Shion Chen  - {\it Curriculum Vitae}   }}
 \end{center}
 
-\tabnocap{l l} {
-Date of birth: & 17 June 1989 \\
-Nationality: & Japan \\
-Address: & Department of Physics and Astronomy, \\
-               & University of Pennsylvania. 209 S. 33rd 19104 PA USA. \\
-email: &  cshion@sas.upenn.edu \\
-phone: & +1-267-576-9389 / +41-75411-3595 (CERN)
-}{}
+%%%%%%%%%%%%%%%%%%%%%%% Basic info %%%%%%%%%%%%%%%%%%%%%%%
+\begin{minipage}[t]{.8\textwidth}
+%  \begin{center}
+    \begin{tabular}{ll}
+      Date of birth: & 17 June 1989 \\
+      Nationality: & Japan \\
+      Address: & Department of Physics and Astronomy, \\
+               & University of Pennsylvania. \\
+               & 209 S. 33rd 19104 PA USA. \\
+      email: &  cshion@sas.upenn.edu \\
+      phone: & +1-267-576-9389 \\
+             &  +41-75411-3595 (CERN)
+    \end{tabular}
+%  \end{center}
+%    \caption*{}
+\end{minipage}
+  %
+\hfill
+  %
+\begin{minipage}[c]{.15\textwidth}
+  \begin{figure}[H]
+    \includegraphics{psp_photo_2010.jpg}
+  \end{figure}
+\end{minipage}
+
 
 %%%%%%%%%%%%%%%%%%%%%%% Education and Training %%%%%%%%%%%%%%%%%%%%%%%
 \Section{Education and Training \hrule height 0.5mm depth 1mm width 100mm}
@@ -192,7 +201,7 @@ phone: & +1-267-576-9389 / +41-75411-3595 (CERN)
 \item  ``Searches for squarks and gluinos in final states with an isolated charged lepton, jets, and missing transverse momentum with the ATLAS detector'', Epiphany 2017, January 2017, Krakow, Poland. 
 \item  ``Electroweak Production SUSY Searches in the ATLAS Experiment'', LHCP 2018, June 2018, Bolonga, Italy. 
 \item  ``Search for electroweak gauginos in compressed mass spectra in the LHC-ATLAS experiment'', DPF 2019, July 2019, Boston, USA.  
-\item  ``Reconstruction Techniques in SUSY Searches with Soft Objects in the ATLAS Experiment'', ICHEP 2020, July 2020, Prague, Czeck. 
+\item  ``Reconstruction Techniques in SUSY Searches with Soft Objects in the ATLAS Experiment'', ICHEP 2020, July 2020, Prague, Czeck Republic. 
 \end{enumerate}
 
 %%%%%%%%%%%%%%%%%%%%%%% Seminars %%%%%%%%%%%%%%%%%%%%%%%
@@ -426,25 +435,25 @@ I evaluated the impact on data quality and measured the time evolution of the be
 While quantum mechanics (QM) is without doubt a very successful theoretical framework in describing the microscopic scale of physics, 
 it is still on a non-trivial basis where observables are intrinsically undeterministic (``non-realism'') and the nature can be ``non-local'' accordingly. 
 Such counter-intuitiveness was in fact had been regarded as a problem of QM as high-lighted by the famous ``EPR paradox''.
-However, through the confirmation of violation of Bell's inequality in 1970-80s, the local-realism was experimentally excluded using entangled photon pairs.
+However, through the confirmation of violation of Bell's inequality in 1970-80s using entangled photon pairs, the local-realism was experimentally excluded.
 Although loopholes were pointed out in the early experiments, these have been dramatically improved thanks to the rapid evolution of photon sensing and the laser technology. 
 It is finally the time we have to say goodbye to our intuitive -- local and deterministic -- picture of physics.  \\
 %The exclusion of local-realism has become almost complete in the photon pair regime, and nowadays nobody views it as paradox anymore. \\
 
-So is there anything still left to do in the post-ERP era? Yes -- experiments in systems other than photon pairs are also interesting in terms of testing the universality of quantum nature. 
-Tests of Bell's inequality using entangled massive particles are particularly non-trivial as they are more 'classical' due to its shorter Compton wavelength. 
-However few experiments were done so far, due to the technical difficulties of preparing and measuring the entangled states. 
-High energy colliders have been anticipated as a new platform, 
+So is there anything still left to do in the post-ERP era? Yes -- experiments in the other kind of systems are also interesting in terms of testing the universality of quantum nature. 
+In particular, tests of Bell's inequality using entangled massive particles are non-trivial as they are more 'classical' due to its shorter Compton wavelength. 
+Few experiments were done so far, due to the technical difficulties of preparing and measuring the entangled states. 
+High energy colliders have been anticipated as a new platform,
 since (iso)spin-entangled particle pairs can be easily prepared via a variety of processes with large statistics, 
 in a wide range of energies from a few GeV to an order of a few 100~GeV, 
 and with various types of interaction involved. 
-The (iso)spin can be then measured by reconstruct the decay angle distribution of the decay products.
-The down-side in the regime is the nature of indirect measurement i.e. the spin can only be measured through its decay where observer's free-will cannot intervene (``free-will loophole''),
-but nevertheless it can open up a various many available channels even though the tests would be less rigorous. \\
+The (iso)spin can be then measured by reconstructing the decay angle distribution of the decay products.
+The down-side is the nature of indirect measurements i.e. the (iso)spin can only be measured through its decay to which observer's free-will cannot intervene (``free-will loophole'').
+Nevertheless it can open up a various available channels even though at some cost of rigorousness. \\
 
-My master degree project was to study the feasibility i.e. what entangled particle systems are ideal and how statistically significant those channels can be.
-This compelled reformulating the Bell's inequality for the particular problem, and obtained a brief metric for the level of violation~[\ref{Pub::BI2013_PTEP}]. 
-Checking in the past and ongoing experiments, charmonium decays ($J/\psi,\eta_c^0, \chi_c^0 \ra \Lambda \overline{\Lambda}$ in BES3, 
+My master thesis project was to study the feasibility i.e. what particle systems are ideal and how statistically significant those channels can be.
+This compelled reformulating the Bell's inequality for the particular problem, and we obtained a brief metric for the level of violation~[\ref{Pub::BI2013_PTEP}]. 
+Checking in the past and ongoing experiments, charmonium decays ($J/\psi,\eta_c^0, \chi_c^0 \ra \Lambda \overline{\Lambda}$) in BES3, 
 the di-tau production at Belle ($ee \ra \tau\tau$) and $H\rightarrow \tau\tau$ in ILC are statistically promising with $2-3\sigma$ level of significance. 
 Finally, the effect of detector resolution and contamination of background is discussed along with the possible loopholes associated with.
 %
