@@ -365,14 +365,17 @@ My major contribution to this analysis was in the background estimation.
 While a careful and dedicated background modeling is crucial for a discovery-oriented analysis, 
 it is challenging in this analysis because the signal region lies in the high energy tails of SM phase space. 
 The background remaining after the selection are very unusual events, 
-typically associated with many ISR jets. 
-Therefore the MC-based estimation -- even with the assist of control regions laying in the vicinity of the signal regions -- may not be always reliable.
-To deal with this, I have developed a new data-driven estimation method that emulates the signal region events by replacing a lepton in the corresponding two lepton region.
-Though the final precision is still comparable, this is supposed to be much more robust and reliable because it is free from kinematic extrapolations.
-On the other hand, I have also helped investigating the MC mis-modeling of standard model processes (especially regarding top-antitop pair production) in the physics modeling group.
+typically associated with many jets generated at higher-order QCD.
+Therefore the MC-based estimation -- even assisted by the use of control regions laying in the vicinity of the signal regions -- may not be always reliable.
+Half of the background events in the signal regions also arises from di-lepton events where one of the leptons are mis-identified or a tau lepton decays hadronically, faking as a jet.
+To address the estimation on this background component, I have developed a new data-driven estimation method that uses events with two leptons, 
+replacing one of them into a missing particle or a simulated hadronically decaying tau
+in order to emulate the events in the signal regions.
+Though the achieved precision is still comparable with the nominal method, the new method significantly reduce the reliance on the MC, adding robustness to the estimation.
+On the other hand, I have also worked on investigating the MC mis-modeling of several main SM processes in the physics modeling group.
 Two results were published from the analysis with different data statistics~[\ref{Pub::ATLPaper_Incl1L}]. 
-Unfortunately no significant deviation from the standard model was observed, and an exclusion limit was set in a simplified model in which the gluino decays via a chargino.
-Up to a gluino mass of 1.7 $\sim$ 2.0 TeV was excluded for LSP light than $\sim1TeV$. \\ \\
+Unfortunately no significant deviation from the SM was observed, and an exclusion limit was set in a simplified model in which the gluino decays via a chargino.
+Up to a gluino mass of 1.7--2.0~TeV was excluded for LSP light than $\sim1$~TeV. \\ \\
 
 %\Subsubsection{Development of a databasing system for the MicroMegas detector (2014-15)} 
 \paragraph{Development of a databasing system for the MicroMegas detector (2014-15)}  \phantom{k} \vspace{3mm} \\
@@ -385,7 +388,7 @@ As my authorship qualification project in ATLAS, I developed a centralized datab
 
 %%%%%%%%%%%%%%%%%%%%%%% ILC %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \Subsection{Calorimeter developments for ILC/ILD  (2012-14) \hrule height 0.1mm depth 0.1mm width 165mm} 
-The ILC (International Linear Collider) is a  (sub)TeV-scale electron-positron collider aiming a super precise measurement of the higgs boson, 
+The ILC (International Linear Collider) is a  (sub)TeV-scale electron-positron collider aiming precision measurements of the higgs boson, 
 as well as probing new physics in the electroweak sector.  
 As targeted events typically contain electroweak gauge bosons (W/Z), 
 the precise identification, particularly through their hadronic decay mode, is crucial for many of the ILC physics programs. 
@@ -412,14 +415,14 @@ The second-generation prototype was designed as a test for a fully integrated de
 \paragraph{Performance study of the PFA/ILD SiW-ECAL in a realistic detector setup   (2012-14)}  \phantom{k} \vspace{3mm} \\
 While simulation studies have shown that PFA with the ideal ILD detector model performs very successfully, 
 there are still a number of industrial challenges to achieve the specification of an ideal detector with ideal digitization, 
-for instance the increased dead volume due to realistic PCB thickness or the protection frames around silicon sensor cells (``guard ring") which did not present in the default design.
+for instance the increased dead volume due to realistic PCB thickness or the protection frames around silicon sensor cells (``guard ring") which did not present in the baseline simulation model.
 %For instance, in the ECAL, It is reportedly hard to to manufacture PCBs with sufficient mechanical strength and robustness within the designed thickness (0.5mm), therefore in a realistic detector thicker volume of PCBs has to be taken into account. Also for SiW-ECAL, in order to suppress noise originated from dark current on the surface of silicon sensors, placing a metal rings around a sensor (``guard ring") has been suggested, which however results in dead volume. \\
 I performed a set of studies on the impact of such effects due to the features of a realistic detector on physics performance. 
 The jet energy scale and resolution were parametrized as a function of guard ring width,
 PCB thickness, fraction of dead pixels/ASICs, noise rate, and cross-talk rate between channels etc., 
-and closely evaluated the dependences via simulation. 
-The results illustrate that the performance of PFA even under such conditions is still very stable and robust~[\ref{Pub::ECAL_LCWS2013}], 
-and also provides primary guidance for the definition of manufacturing requirements in the future. \\
+and closely evaluated the dependency using simulation. 
+The results illustrate that the performance of PFA even under the most pessimistic conditions is still excellent and robust~[\ref{Pub::ECAL_LCWS2013}], 
+and also provides primary guidance for the definition of manufacturing requirements in the future. 
 
 %%%%%%%%%%%%%
 %\Subsubsection{Commissioning of the power-pulsing scheme for ILD AHCAL (2013)} 
