@@ -1,9 +1,0 @@
-project:
-  script:
-    - export PATH=/cvmfs/sft.cern.ch/lcg/external/texlive/2014/bin/x86_64-linux:$PATH
-    
-    - make clean
-    - make
-  artifacts:
-      paths:
-          - CV_shionChen.pdf
