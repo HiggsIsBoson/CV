@@ -92,7 +92,9 @@
 %\lipsum[1-20] % generate about 4 pages of filler text
 
 \begin{center}
-  \large{\textbf{Shion Chen  - {\it Curriculum Vitae}   }}
+  \large{\textbf{Shion Chen  - {\it Curriculum Vitae}   }} \\
+  \vspace{2mm}
+  \small{Last update: \today} 
 \end{center}
 
 %%%%%%%%%%%%%%%%%%%%%%% Basic info %%%%%%%%%%%%%%%%%%%%%%%
@@ -138,9 +140,11 @@
 %%%%%%%%%%%%%%%%%%%%%%% Work experience %%%%%%%%%%%%%%%%%%%%%%%
 \Section{Work Experience \hrule height 0.5mm depth 1mm width 100mm} \vspace{-5mm}
 \begin{description}
-	 \item[Post-doctoral fellow] (University of Pennsylvania, Sep 2017-) \mbox{} \\
-               Main project: Searches for Super-symmetric particle, new lepton tagger development and the operation of the Transition Radiation Tracker in ATLAS experiment. \\
-	       Advisor: Brig Williams.               
+	 \item[Project Assistant Professor] (University of Tokyo, Jan 2022-present) \mbox{} \\
+               Application of quantum computing to high energy physics and testing fundamental questions on quantum mechanics. \\
+	 \item[Post-doctoral fellow] (University of Pennsylvania, Sep 2017-Dec 2021) \mbox{} \\
+               Searches for Super-symmetric particle, new lepton tagger development and the operation of the Transition Radiation Tracker in ATLAS experiment. \\
+	       Advisor: Brig Williams, Joseph Kroll.               
 \end{description}
 \clearpage
 
@@ -187,7 +191,7 @@
 	\item ATLAS Collabolation \dots \underline{\textbf{S. Chen}} \dots \\
           ``Search for charginos and neutralinos in final states with two boosted hadronically decaying bosons and missing transverse momentum in $pp$ collisions at $\sqrt{s}=13$ TeV with the ATLAS detector'' \\
 %           \href{https://atlas.web.cern.ch/Atlas/GROUPS/PHYSICS/CONFNOTES/ATLAS-CONF-2021-022/}{ATLAS-CONF-2021-022} (2021)  	\label{Pub::ATLCONF_EW0L_LHCP2021}
-	    Phys. Rev. D 104, 112010 (2021)  arXiv:~\href{https://arxiv.org/abs/2106.01676}{[hep-ex]~2108.07586}   \label{Pub::ATLPaper_EW0L}          
+	    Phys. Rev. D 104 112010 (2021)  arXiv:~\href{https://arxiv.org/abs/2106.01676}{[hep-ex]~2108.07586}   \label{Pub::ATLPaper_EW0L}          
 %
 	\item ATLAS Collabolation \dots \underline{\textbf{S. Chen}} \dots \\
               ``Muon reconstruction and identification efficiency in ATLAS using the full Run 2 $pp$ collision data set at $\sqrt{s}=13$ TeV'' \\
@@ -243,7 +247,7 @@ operation at high occupancy and trigger rate.'' (2021).
 
 %%%%%%%%%%%%%%%%%%%%%%% Languages %%%%%%%%%%%%%%%%%%%%%%%
 \Section{Languages \hrule height 0.5mm depth 1mm width 80mm} \vspace{-5mm}
-Japanese (native), Chinese (native), English (fluent), French (poor), Brasilian Portuguese (poor).
+Japanese (native), Mandarin Chinese (native), English (fluent), French (decent), Brasilian Portuguese (beginner).
 
 %\clearpage 
 \Section{Research Summary \hrule height 0.5mm depth 1mm width 100mm} \vspace{-5mm}
@@ -264,8 +268,7 @@ The work extends from:
 \Subsection{ATLAS experiment  (2014-present) \hrule height 0.1mm depth 0.1mm width 165mm}
 
 %%%%%%%%%%%%%%
-%\Subsubsection{Operation of the Transition Radiation Tracker (2017-present)}
-\paragraph{Operation and Upgrades of the TRT Detector (2017-present)} \phantom{k} \vspace{2mm} \\
+\paragraph{Operation and Upgrades of the TRT Detector (2017-2021)} \phantom{k} \vspace{2mm} \\
 Transition Radiation Tracker (TRT) is one of the primary tracking detectors in the ATLAS.
 It consists of 350,848 cylindrical 4~mm diameter straws of thin-wall proportional chamber filled with Xe/Ar-based active gas, creating ionization signals along a passage of a charged particle.
 While it serves as a continuous tracker, it also offers a particle identification functionality via the transition radiation radiated emitted from the polyethelene fiber/foils interspaced between the straws. \\
@@ -284,27 +287,26 @@ I joined from the middle of the upgrades and contributed to the commissioning us
 
 Though the upgrades ended with a great success, we started to observe sporadic events of de-synchronization in the detector since the high-luminosity operation in Run2.
 While each de-synchronization only costs about 15 seconds of dead time for the auto-recovery, 
-understanding the root cause was crucial since it can develop in the future if related to the hardware.
-Since becoming the DAQ coordinator, I have been leading the investigation activity.
+it was crucial to understand the root cause since it can develop in the future if it is related to the hardware.
+I have been leading the investigation activity since 2018.
 The biggest challenge was that this error was never been reproduced in any environments other than the real collisions.
 Still, through the in-situ hardware swapping tests and a careful log analysis,
 we could almost identify that the Quartz Crystal Based PLL (QPLL) chips on some patch panel boards are the most suspicious components.
-Numerous tests are in progress to understand the actual mechanism, and a QPLL chip replacement campaign is planned once it is proven. \\
+Numerous tests are in progress to understand the actual mechanism, and a potential QPLL chip replacement campaign is planned once it is proven. \\
 
-The other activities during the Long Shut-down 2 (LS2; 2019-present) include the software migration, 
-upgrade of the Trigger and Timing Controller system, the hardware spare stress-testing, and the radiation damage assessment in the TRT~[\ref{Pub::CERN_YR_radiation}].
-To the effort done during August 2018 to August 2020, the TRT-DAQ team has been awarded for the ATLAS Outstanding Achievement Award in 2021. 
+The other activities during the Long Shut-down 2 (LS2; 2019-2022) include the improving the on-line DAQ software, 
+upgrade of the Trigger and Timing Controller system, stress-testing of the hardware spares, and the radiation damage assessment in the TRT over the Run1-2~[\ref{Pub::CERN_YR_radiation}]. 
+The DAQ team has been awarded for the ATLAS Outstanding Achievement Award for the overall efforts in 2018-20. 
 
 %%%%%%%%%%%%%%
-%\Subsubsection{Searches for Electroweakino production (2015-16, 2018-present)} 
-\paragraph{Searches for Electroweakino production (2015-16, 2018-present)}  \phantom{k} \vspace{3mm} \\
+\paragraph{Searches for Electroweakino production (2015-2021)}  \phantom{k} \vspace{3mm} \\
 Supersymmetry (SUSY) in the particle physics is an elegant theoretical extension of the Standard Model (SM) 
 by introducing new particles that have the identical quantum numbers with the SM partners except for the spins.
 While it is generally desirable as the solution of the hierarchy problem and the grand-unification,
 light electroweakinos -- the SUSY partners of the SM gauge bosons and the higgs boson -- are particularly well-motivated 
 in terms of the presence of viable WIMP dark matter candidate, naturalness, consistency with the potential muon g-2 anomaly and so on. \\
 
-\Subsubsection{First electroweakino search in ATLAS Run2 (2015-16)}
+\Subsubsection{First electroweakino search in ATLAS Run2 (2015-2016)}
 Due to the small production cross-section,
 the production of electroweakinos were only poorly constrained by direct searches before the LHC Run2 when I joined the ATLAS.
 As as Ph.D student, I participated to the first chargino-neutralino pair production search in the Run2 using the 3-lepton final state and the datasets corresponding to 14.8\ifb.
@@ -317,7 +319,7 @@ the analysis strategy and the software legacies were substantially inherited to 
 After a year leaving for my graduation and coming back to the SUSY group again as a postdoc, 
 I set out tackling two frontiers that limited the search sensitivity: the ``compressed spectra frontier'' and the ``high-mass'' frontier:
 %%%%%%
-\Subsubsection{Compressed spectra searches in the 2-/3-lepton final states (2018-present)}
+\Subsubsection{Compressed spectra searches in the 2-/3-lepton final states (2018-2021)}
 The compressed spectra in SUSY refers to a regime where the mass splitting between the produced SUSY particles and the lightest SUSY particle --LSP-- (\dm) is small, ending up in only soft particles in the final states.
 Though this is exceptionally motivated regime by the thermal dark-matter relic density or naturalness,
 the search sensitivity faces a harsh challenge in the low-\pt electrons/muons (collectively referred to ``leptons'') reconstruction versus the high fake lepton background from jets,
@@ -333,7 +335,7 @@ the exclusion could run up to $\sim 250-300~(150-200)~\GeV$ for the wino (higgsi
 This corresponds to excluding signals with 5--15 times smaller cross-section with respect to the previous analyses, 
 overwhelming the benefit of simply increasing the data statistics. \\
 %%%%%%
-\Subsubsection{High-mass search using the final state with boosted hadronically decaying SM bosons (2018-present)}
+\Subsubsection{High-mass search using the boosted hadronic final states (2018-2021)}
 The high-mass frontier is on the other hand a regime where heavy electroweakinos are produced decaying into a substantially lighter LSP.
 Besides the small production cross-section, the bottleneck was identified to be the lepton requirement employed in the analyses (in a fear of being overwhelmed by the high hadronic backgrounds otherwise)
 that suppresses the signal yields typically by about the branching ratio of $W \ra \ell\nu$ or $Z \ra \ell\ell$ (1/15-1/4).
@@ -345,6 +347,7 @@ This typically compares with the projected exclusion limits at an integrated lum
 The analysis also achieved a dramatically small model dependency in the sensitivity thanks to treating the decays of $W/Z/h$ bosons inclusively.
 A remarkably wide model interpretation is also provided testing the exclusion of various LSP assumptions (wino, higgsino, bino, gravitino, and axino) and the branching hypotheses,
 which enables to declare generic exclusion limits on the electroweakino pair production~[\ref{Pub::ATLPaper_EW0L}].
+\clearpage 
 
 %%%%%%%%%%%%%%
 %\Subsubsection{Development and the Calibration of a new Lepton Isolation Algorithm using Machine-Learing (2018-2020)} 
@@ -354,12 +357,12 @@ As opposed to the sophisticated multi-variate analysis techniques employed in th
 only very simple selections have been exercised in isolation, which are typically the fixed cuts in the energy sum of tracks and calorimeter clusters around the lepton candidate.
 In 2016, the first machine-learning based isolation was contrived in the context of $t\bar{t}+h$ search. 
 This was a boosted decision tree (BDT) taking eight input variables including number of tracks around the lepton, vectorial sum of those momenta, and $b$-jet likeliness calculated by the $b$-tagging algorithm, 
-achieving another factor of 2-4 fake lepton reduction with $70\%-90\%$ real lepton efficiency after applying the standard isolation cut. 
+achieving another factor of 2-4 fake lepton reduction with $70\%-90\%$ real lepton efficiency after applying the standard isolation cut.  \\
 
 While this algorithm was specifically targeting high-\pt ($>30$~GeV) fakes from heavy-flavor hadron decays,
 my interest was to extend the algorithm to a broader scope, and particularly develop a ``low-\pt tune'' that could help the compressed SUSY analysis I was working on.
 The retuning was done with Shunichi Akatsuka (University of Kyoto) by re-training with special low-\pt samples and re-optimizing the choice of input variables.
-This could eventually achieve $\sim 30-50~(15)\%$ more fake reduction at the same efficiency for electrons (muons). 
+This could eventually achieve $\sim 30-50~(15)\%$ more fake reduction at the same efficiency for electrons (muons). \\
 
 The latter part of my effort was to promote the algorithm as the standard in ATLAS.
 A couple of working points were defined by junctioning the nominal and the low-\pt tune, and the efficiency measurements were done to provide the correction factors for the MC.
@@ -369,8 +372,8 @@ The BDT isolation working points became available as the collaboration-wide reco
 
 %%%%%%%%%%%%%%
 %\Subsubsection{Search for Gluino production using the 1-lepton final state (2015-17)} 
-\paragraph{Search for Gluino production using the 1-lepton final state (2015-17)}  \phantom{k} \vspace{3mm} \\
-Since the discovery of higgs boson at a mass of 125 GeV, there is a dramatically increased interest in the search for gauginos since in typical minimal models, this mass naively implies a scalar top mass of several tens of TeV, beyond the reach of LHC. In the early stage of LHC Run2, the gluino search was particularly well-motivated as its production cross-section increases by a factor 4-40 due to the doubled center of mass energy with respect to Run1. 
+\paragraph{Search for Gluino production using the 1-lepton final state (2015-2017)}  \phantom{k} \vspace{3mm} \\
+Since the discovery of higgs boson at a mass of 125 GeV, there is a dramatically increased interest in the search for gauginos since in typical minimal models, this mass naively implies a scalar top mass of several tens of TeV, beyond the reach of LHC. In the early stage of LHC Run2, the gluino search was particularly well-motivated as its production cross-section increases by a factor 4-40 due to the doubled center of mass energy with respect to Run1. \\
 
 As the dissertation analysis, I participated in a gluino search focusing on the final state with exactly one lepton. 
 My major contribution to this analysis was in the background estimation. 
@@ -390,7 +393,7 @@ Unfortunately no significant deviation from the SM was observed, and an exclusio
 Up to a gluino mass of 1.7--2.0~TeV was excluded for LSP light than $\sim1$~TeV. 
 
 %\Subsubsection{Development of a databasing system for the MicroMegas detector (2014-15)} 
-\paragraph{Development of a databasing system for the MicroMegas detector (2014-15)}  \phantom{k} \vspace{1mm} \\
+\paragraph{Development of a databasing system for the MicroMegas detector (2014-2015)}  \phantom{k} \vspace{1mm} \\
 MicroMegas is a sub-detector of the New Small Wheel, aiming fast and precise measurements of muon tracks oriented to the end-caps. 
 After a successful  R$\&$D and a proposal with TDR, it is now at the stage of fine-tuning the detailed design, 
 including the geometry and electronics and so on. 
@@ -399,7 +402,7 @@ As my authorship qualification project in ATLAS, I developed a centralized datab
 %%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%% ILC %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\Subsection{Calorimeter developments for ILC/ILD  (2012-14) \hrule height 0.1mm depth 0.1mm width 165mm} 
+\Subsection{Calorimeter developments for ILC/ILD  (2012-2014) \hrule height 0.1mm depth 0.1mm width 165mm} 
 The ILC (International Linear Collider) is a  (sub)TeV-scale electron-positron collider aiming precision measurements of the higgs boson, 
 as well as probing new physics in the electroweak sector.  
 As targeted events typically contain electroweak gauge bosons (W/Z), 
@@ -407,7 +410,7 @@ the precise identification, particularly through their hadronic decay mode, is c
 The requirement from physics is sub-5\% energy resolution per jet, which is equivalent to 3-4 GeV resolution for di-jet invariant mass. 
 To achieve this unprecedented benchmark, the ILD (International Large Detector) is planning to employ the particle flow algorithm (PFA) 
 in which each jet particle is identified and the energy is measured individually. 
-The calorimeters are the key components in this regime in which resolving the showers inside jets is key to the performance. 
+The calorimeters are the key components in this regime in which resolving the showers inside jets is key to the performance. \\
 %in which jet particles are classified into charged or neutral particles, and the energy measured by the inner tracker or by the calorimeter is assigned for respective type. This realizes the best resolution and correct scale assignment for each individual particle. Successful association of charged tracks and calorimeter deposits is the key part of the algorithm, even in a dense environment crowded with tens of particles per jet. Therefore a highly granular spatial segmentation is required for the ILD calorimeters. \\
 %%%% ??????
 
@@ -424,7 +427,7 @@ The second-generation prototype was designed as a test for a fully integrated de
 
 %%%%%%%%%%%%%
 %\Subsubsection{Study on performance of PFA/ILD SiW-ECAL in a realistic detector setup   (2012-14)} 
-\paragraph{Performance study of the PFA/ILD SiW-ECAL in a realistic detector setup   (2012-14)}  \phantom{k} \vspace{3mm} \\
+\paragraph{Performance study of the PFA/ILD SiW-ECAL in a realistic detector setup   (2012-2014)}  \phantom{k} \vspace{3mm} \\
 While simulation studies have shown that PFA with the ideal ILD detector model performs very successfully, 
 there are still a number of industrial challenges to achieve the specification of an ideal detector with ideal digitization, 
 for instance the increased dead volume due to realistic PCB thickness or the protection frames around silicon sensor cells (``guard ring") which did not present in the baseline simulation model.
@@ -454,8 +457,7 @@ I evaluated the impact on data quality and measured the time evolution of the be
 
 
 %%%%%%%%%%%%%%  BI   %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\clearpage
-\Subsection{Testing local-reality in collider experiments  (2012-14) \hrule height 0.1mm depth 0.1mm width 165mm}
+\Subsection{Testing local-reality in collider experiments  (2012-2014) \hrule height 0.1mm depth 0.1mm width 165mm}
 While quantum mechanics (QM) is without doubt a very successful theoretical framework in describing physics of the microscopic scale, 
 it is seemingly still on a non-trivial basis; whether observables are intrinsically undeterministic (``non-realism'') and whether the nature can be ``non-local''. 
 Such counter-intuitiveness was in fact had been considered a problem as articulated by the ``EPR paradox''.
