@@ -1,0 +1,95 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+%\usepackage{url, braket, setspace}
+\usepackage{hyperref}
+\renewcommand{\refname}{}
+
+%%%%%%%% Margins
+\setlength{\topmargin}{-1.5cm}
+\setlength{\oddsidemargin}{-0.3cm}
+\setlength{\evensidemargin}{-0.3cm}
+\setlength{\textwidth}{16.5cm}
+\setlength{\textheight}{23cm}
+
+%%%%%%%% Section styling
+\newcommand{\Section}[1]{\section*{#1}
+\addcontentsline{toc}{section}{#1}}
+\newcommand{\Subsection}[1]{\subsection*{#1}
+\addcontentsline{toc}{subsection}{#1}}
+\newcommand{\Subsubsection}[1]{\subsubsection*{#1}
+\addcontentsline{toc}{subsubsection}{#1}}
+
+\usepackage{titlesec}
+\titleformat{\section}
+  {\normalfont\sffamily\Large\bfseries  }
+  {\thesection }{1em}{}
+\titleformat{\subsection}
+  {\normalfont\sffamily \large \bfseries }
+  {\thesection}{1em}{}
+\titleformat{\subsubsection}
+  {\normalfont\sffamily \bfseries }
+  {\thesection}{1em}{}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+%%%%%%%
+\Section{Publications with major contribution \hrule height 0.5mm depth 1mm width 100mm}  \vspace{-17mm}
+%\begin{thebibliography}{99}
+%\bibitem{Pub::BI2013_PTEP} \underline{S.~Chen}, Y.~Nakaguchi and S.~Komamiya,
+%			``Testing Bell's Inequality using Charmonium Decays'',
+%			Prog. Theor. Exp. Phys. 063A01 (2013),
+%                         arXiv:~\href{https://arxiv.org/abs/1302.6438}{[hep-ph]~1302.6438}.
+%
+%\bibitem{Pub::ECAL_LCWS2013} C.Kozakai, \underline{S.~Chen} et.al.,
+%          ``Robustness of a SiECAL used in Particle Flow Reconstruction'',
+%	  International Workshop on Future Linear Colliders (LCWS13) Tokyo, Japan, November 11-15, 2013,
+%	  \href{https://arxiv.org/abs/1404.0124}{arXiv:~1404.0124}.
+%
+%\bibitem{Pub:SKIROC2015} M. S. Amjad, \dots \underline{S.Chen} et al..,
+%              ``Beam test performance of the SKIROC2 ASIC'',
+%                Nucl. Instrum. Meth., A778:78-84 (2015).
+%
+%\bibitem{Pub::ATLPaper_Incl1L_3ifb} ATLAS Collaboration  \dots \underline{S.~Chen} \dots,
+%		   ``Search for gluinos in events with an isolated lepton, jets and missing transverse momentum at $\sqrt{s}= 13$ TeV with the ATLAS detector"
+%	             Eur. Phys. J., C 76(10) 565 (2016), arXiv:~\href{https://arxiv.org/abs/1605.04285}{[hep-ex]~1605.04285}.
+%
+%\bibitem{Pub::ATLPaper_Incl1L_36ifb} ATLAS Collaboration  \dots \underline{S.~Chen} \dots,
+%		    ``Search for squarks and gluinos in events with an isolated lepton, jets and missing transverse momentum at $\sqrt{s}=13$ TeV with the ATLAS detector",
+%		    Phys. Rev. D 96 112010 (2017), arXiv:~\href{https://arxiv.org/abs/1708.08232}{[hep-ex]~1708.08232}.
+%
+%\bibitem{Pub::ATLCONF_EW_SEARCH2016} ATLAS Collaboration \dots \underline{\textbf{S. Chen}} \dots,
+%		   ``Search for supersymmetry with two and three leptons and missing transverse momentum in the final state at $\sqrt{s}=13$ TeV with the ATLAS detector",
+%		    \href{https://cds.cern.ch/record/2212162}{ATLAS-CONF-2016-096} (2016).
+%
+%\bibitem{Pub::ATLPaper_EWCompressed} ATLAS Collaboration \dots \underline{S. Chen} \dots,
+%		   ``Searches for electroweak production of supersymmetric particles with compressed mass spectra in $\sqrt{s}=13$~TeV $pp$ collisions with the ATLAS detector'',
+%	            Phys. Rev. D 101 052005 (2020), arXiv:~\href{https://arxiv.org/abs/1911.12606}{[hep-ex]~1911.12606}.
+%
+%\bibitem{Pub::ATLPaper_EW3L} ATLAS Collaboration \dots \underline{S.~Chen} \dots,
+%          ``Search for chargino-neutralino pair production in final states with three leptons and missing transverse momentum in $\sqrt{s}=13$ TeV p-p collisions with the ATLAS detector'',
+%	    Eur. Phys. J. C 81 1118 (2021), arXiv:~\href{https://arxiv.org/abs/2106.01676}{[hep-ex]~2106.01676}.
+%
+%\bibitem{Pub::ATLPaper_EW0L} ATLAS Collaboration \dots \underline{S.~Chen} \dots,
+%          ``Search for charginos and neutralinos in final states with two boosted hadronically decaying bosons and missing transverse momentum in $pp$ collisions at $\sqrt{s}=13$ TeV with the ATLAS detector'',
+%	    Phys. Rev. D 104 112010 (2021),  arXiv:~\href{https://arxiv.org/abs/2108.07586}{[hep-ex]~2108.07586}.
+%
+%\bibitem{Pub::ATLPaper_muon_Run2} ATLAS Collaboration \dots \underline{S.~Chen} \dots,
+%              ``Muon reconstruction and identification efficiency in ATLAS using the full Run 2 $pp$ collision data set at $\sqrt{s}=13$ TeV'',
+%          Eur. Phys. J. C 81 578 (2021), arXiv:~\href{https://arxiv.org/abs/2012.00578}{[hep-ex]~2012.00578}.
+%
+%\bibitem{Pub::CERN_YR_radiation} ATLAS Collaboration \dots \underline{S.~Chen} \dots,
+%              ``Radiation effects in the LHC experiments: Impact on detector performance and operation'',
+%          CERN Yellow Reports, DOI: \href{https://e-publishing.cern.ch/index.php/CYRM/issue/view/129}{10.23731/CYRM-2021-001}.
+%
+%\bibitem{Pub::DMQubits1} \underline{S.~Chen}, H.~Fukuda, T.~Inada, T.~Moroi, T.~Nitta and T.~Sichanugrist,
+%          ``Detection of hidden photon dark matter using the direct excitation of transmon qubits'',
+%	    Phys. Rev. Lett. 131, 211001 (2023)  arXiv:~\href{https://arxiv.org/abs/2212.03884}{[hep-ex]~2212.03884}.
+%\end{thebibliography}
+
+\bibliographystyle{unsrt}
+\nocite{*}
+\bibliography{../main_pub.bib}  
+
+\end{document}

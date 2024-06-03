@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2022)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: pubList.aux
+The style file: unsrt.bst
+Database file #1: ../ATLAS_240111_authored.bib
+Reallocated field_info (elt_size=4) to 10014 items from 5000.
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Reallocated field_info (elt_size=4) to 15028 items from 10014.
+Reallocated field_info (elt_size=4) to 20042 items from 15028.
+Reallocated str_pool (elt_size=1) to 195000 items from 130000.
+You've used 687 entries,
+            1791 wiz_defined-function locations,
+            3126 strings with 131021 characters,
+and the built_in function-call counts, 121149 in all, are:
+= -- 10947
+> -- 2748
+< -- 0
++ -- 1374
+- -- 687
+* -- 6818
+:= -- 20569
+add.period$ -- 2061
+call.type$ -- 687
+change.case$ -- 687
+chr.to.int$ -- 0
+cite$ -- 687
+duplicate$ -- 6183
+empty$ -- 13684
+format.name$ -- 687
+if$ -- 26686
+int.to.chr$ -- 0
+int.to.str$ -- 687
+missing$ -- 687
+newline$ -- 3438
+num.names$ -- 687
+pop$ -- 687
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 2059
+stack$ -- 0
+substring$ -- 8085
+swap$ -- 687
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 1377
+width$ -- 690
+write$ -- 7559

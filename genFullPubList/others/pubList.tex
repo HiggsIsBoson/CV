@@ -1,0 +1,44 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+%\usepackage{url, braket, setspace}
+\usepackage{hyperref}
+\renewcommand{\refname}{}
+
+%%%%%%%% Margins
+\setlength{\topmargin}{-1.5cm}
+\setlength{\oddsidemargin}{-0.3cm}
+\setlength{\evensidemargin}{-0.3cm}
+\setlength{\textwidth}{16.5cm}
+\setlength{\textheight}{23cm}
+
+%%%%%%%% Section styling
+\newcommand{\Section}[1]{\section*{#1}
+\addcontentsline{toc}{section}{#1}}
+\newcommand{\Subsection}[1]{\subsection*{#1}
+\addcontentsline{toc}{subsection}{#1}}
+\newcommand{\Subsubsection}[1]{\subsubsection*{#1}
+\addcontentsline{toc}{subsubsection}{#1}}
+
+\usepackage{titlesec}
+\titleformat{\section}
+  {\normalfont\sffamily\Large\bfseries  }
+  {\thesection }{1em}{}
+\titleformat{\subsection}
+  {\normalfont\sffamily \large \bfseries }
+  {\thesection}{1em}{}
+\titleformat{\subsubsection}
+  {\normalfont\sffamily \bfseries }
+  {\thesection}{1em}{}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%
+\Section{Other authored publications  \hrule height 0.5mm depth 1mm width 100mm}  \vspace{-17mm}
+\bibliographystyle{unsrt}
+\nocite{*}
+\bibliography{../ATLAS_240111_authored.bib}  
+
+
+\end{document}
